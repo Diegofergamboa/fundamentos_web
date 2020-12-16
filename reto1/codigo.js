@@ -1,15 +1,13 @@
-alert("hola mundo");
 
+// document.write sirve para escribir en el HTML
+//on load es muy bueno, ya que es del HTML pero basicamente lo que permite 
+// es poder generar en el codigo lo que primero salga en el HTML.
 
-var a = prompt("Escribe el primer numero: ")
-var b = prompt("Escribe el segundo numero: ")
+// document.write("Hola mundo");
 
 function suma(a,b){
-    c = a + b;
-    return c;
+    let a = prompt("Escribe el primer numero: ");
+    let b = prompt("Escribe el segundo numero: ");
+    return document.write(a + b);
 }
-
-alert(suma(a,b));
-
-console.log("Esto es un mensaje por consola")
-console.log(c);
+console.log("Esto es un mensaje por consola");
