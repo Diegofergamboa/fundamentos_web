@@ -1,19 +1,24 @@
-.header_class {
+.header {
     background-image: url(./images/salad-2756467_1920.jpg);
     text-align: center;
     padding: 10px;
     border: 2px solid black;
 }
-h1 span {
-    font-size: 20px;
+.header__h1 {
+    font-size: 80px;
     color:black;
     display: block;
-}
-.listado_semana {
-    font-size: larger;
-    border: 2px solid black;
     padding: 100px;
 }
+.header__span {
+    font-size: larger;
+    color: rgb(41, 40, 40);
+    font-size: 50px;
+    display: block;
+    border: 5px solid grey;
+    border-radius: 5px;
+    margin-top: 70px;
+    }
 .primeros_cuatrodias {
     display: inline-flex;
     margin-top: 20px;
@@ -36,4 +41,7 @@ body {
 footer {
     text-align: center;
     font-size: larger;
+}
+footer::after {
+    color:blue
 }
