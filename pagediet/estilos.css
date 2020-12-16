@@ -1,0 +1,39 @@
+.header_class {
+    background-image: url(./images/salad-2756467_1920.jpg);
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+}
+h1 span {
+    font-size: 20px;
+    color:black;
+    display: block;
+}
+.listado_semana {
+    font-size: larger;
+    border: 2px solid black;
+    padding: 100px;
+}
+.primeros_cuatrodias {
+    display: inline-flex;
+    margin-top: 20px;
+    border: 2px solid black;
+    padding: 25px;
+    background-color: tomato;
+}
+.ultimos_tresdias {
+    display: inline-flex;
+    margin-top: 20px;
+    text-align: justify;
+    border: 2px solid black;
+    padding: 25px;
+    margin-left: 20px;
+    background-color: tomato;
+}
+body {
+    background-color: burlywood;
+}
+footer {
+    text-align: center;
+    font-size: larger;
+}
