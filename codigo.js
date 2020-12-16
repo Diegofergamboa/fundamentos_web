@@ -2,10 +2,11 @@
 
 function saludar(nombre_usuario) {
     nombre_usuario = prompt("¿Como es tu nombre: ?");
-    alert(`hola, ${nombre_usuario} bienvenido al reto de numero mayor o menor`);
+    document.write(`Hola, ${nombre_usuario} bienvenido al curso general de HTML`);
 }
 
 
 
 saludar()
+
 
